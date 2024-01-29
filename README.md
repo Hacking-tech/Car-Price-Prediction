@@ -155,7 +155,8 @@ Lastly, the distribution of Prices has been normalized by applying a log transfo
 
 Price Distribution         |  Probability Plot
 :-------------------------:|:-------------------------:
-![](https://raw.githubusercontent.com/francescopisu/Used-car-price-prediction/master/images/guassian_distribution_prices.png)  |  ![](https://raw.githubusercontent.com/francescopisu/Used-car-price-prediction/master/images/probability_plot.png)
+![](https://github.com/Hacking-tech/Car-Price-Prediction/blob/main/images/guassian_distribution_prices.png)  |  ![](
+  https://github.com/Hacking-tech/Car-Price-Prediction/blob/main/images/probability_plot.png)
 
 #### Removing Outliers
 As the Car Manufacturer/Price box plot shows, there is a high presence of outliers in the dataset and the only way to tackle this problem is to apply an outliers removal procedure based on the single car model.  To do so, we take only the values between the 20th and 80th percentile of the gaussian distribution; this procedure is then applied to each of 3k models.
@@ -188,7 +189,7 @@ We then fit a linear regressor with these parameters. In the table below we can 
 ## 4.3 Decision Tree Regression
 Using *ModelComplexity_DT(X, y)* we determine the best value for **max_depth** parameter. This function fits a Decision Tree Regressor for increasing values of max_depth parameter (values between 10 and 30) and outputs the best value.
 
-![Decision Tree Regressor complexity curve](https://raw.githubusercontent.com/francescopisu/Used-car-price-prediction/master/images/DT_complexity_curve.png)
+![Decision Tree Regressor complexity curve](https://github.com/Hacking-tech/Car-Price-Prediction/blob/main/images/DT_complexity_curve.png)
 
 The chart above is called complexity curve and it shows the performance of the model (training and test score) for increasing values of max_depth. The best value is around 17 because the two scores are close; pushing ahead means overfitting the model.  
 
@@ -204,7 +205,7 @@ DecisionTreeRegressor(criterion='mse', max_depth=17, max_features=None,
 ## 4.4 Random Forest Regression
 For Random Forest Regressor, *ModelComplexity_RF(X, y)* plots this complexity curve:
 
-![Random Forest Regressor complexity curve](https://raw.githubusercontent.com/francescopisu/Used-car-price-prediction/master/images/RF_complexity_curve.png)
+![Random Forest Regressor complexity curve](https://github.com/Hacking-tech/Car-Price-Prediction/blob/main/images/RF_complexity_curve.png)
 
 This time we can see that the best value for **max_depth** is around 18 and to be sure we use *RF_SparkizedGridSearchCV(X,y)* to determine the best value.
 
@@ -248,7 +249,7 @@ As we can see in the cross validation scores table, linear regressor and random 
 Saying that one model is objectively better than another is difficult, especially in this situation where linear regressor is working on a OHencoded dataset and random forest regressor on a label encoded one. Random forests are almost always preferable to linear regressors because they don't need much preprocessing and sometimes they produce good results even in presence of outliers.  In our case the differences in performance between linear regressor and random forest are not enough to justify the exaggeratedly high number of attributes introduces by one hot encoding.  
 
 #### Feature Importance
-![Feature importance](https://raw.githubusercontent.com/francescopisu/Used-car-price-prediction/master/images/feature_importance_CV.png)
+![Feature importance](https://github.com/Hacking-tech/Car-Price-Prediction/blob/main/images/feature_importance_CV.png)
 
 #### Scores
 Regression Model | Test Set Score     | R2 Score      | RMSE Test       |
