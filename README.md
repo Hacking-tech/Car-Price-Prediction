@@ -1,4 +1,4 @@
-# CarPricePrediction
+# Car Price Prediction
  
 # Regression Analysis for Used Car Price Prediction
 [ESHWAR GAJULA](https://github.com/techtricks1), [Hacking Tech](https://github.com/Hacking-tech)
