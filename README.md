@@ -1,7 +1,7 @@
 # Car Price Prediction
  
 # Regression Analysis for Used Car Price Prediction
-[ESHWAR GAJULA](https://github.com/techtricks1), [Hacking Tech](https://github.com/Hacking-tech)
+[Eshwar Gajula](https://github.com/techtricks1), [Hacking Tech](https://github.com/Hacking-tech)
 - [Regression Analysis for  Car Price Prediction](#regression-analysis-for-car-price-prediction)
   * [1.1 Introduction](#11-introduction)
   * [1.2 Tools](#12-tools)
