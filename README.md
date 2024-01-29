@@ -155,8 +155,7 @@ Lastly, the distribution of Prices has been normalized by applying a log transfo
 
 Price Distribution         |  Probability Plot
 :-------------------------:|:-------------------------:
-![](https://github.com/Hacking-tech/Car-Price-Prediction/blob/main/images/guassian_distribution_prices.png)  |  ![](
-  https://github.com/Hacking-tech/Car-Price-Prediction/blob/main/images/probability_plot.png)
+![](https://github.com/Hacking-tech/Car-Price-Prediction/blob/main/images/guassian_distribution_prices.png)  |  ![](https://github.com/Hacking-tech/Car-Price-Prediction/blob/main/images/probability_plot.png)
 
 #### Removing Outliers
 As the Car Manufacturer/Price box plot shows, there is a high presence of outliers in the dataset and the only way to tackle this problem is to apply an outliers removal procedure based on the single car model.  To do so, we take only the values between the 20th and 80th percentile of the gaussian distribution; this procedure is then applied to each of 3k models.
