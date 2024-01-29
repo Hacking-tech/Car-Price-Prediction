@@ -3,28 +3,6 @@
 # Regression Analysis for Used Car Price Prediction
 [Eshwar Gajula](https://github.com/techtricks1), [Hacking Tech](https://github.com/Hacking-tech)
 - [Regression Analysis for  Car Price Prediction](#regression-analysis-for-car-price-prediction)
-  * [1.1 Introduction](#11-introduction)
-  * [1.2 Tools](#12-tools)
-  * [1.3 Car price prediction problem](#13-car-price-prediction-problem)
-- [2. Notebook structure](#2-notebook-structure)
-- [3. Methodology](#3-methodology)
-  * [3.1 ELK Stack Analysis](#31-elk-stack-analysis)
-    - [Logstash](#logstash)
-    - [Elasticsearch](#elasticsearch)
-    - [Kibana](#kibana)
-  * [3.2 Regression Analysis](#32-regression-analysis)
-    - [Data Analysis](#data-analysis)
-    - [3.2.1 Data preprocessing](#321-data-preprocessing)
-      - [Removing Outliers](#removing-outliers)
-      - [Managing categorical attributes](#managing-categorical-attributes)
-- [4. Comparing regression models](#4-comparing-regression-models)
-  * [4.1 Parallelizing Hyperparameter Tuning with SparkSklearn](#41-parallelizing-hyperparameter-tuning-with-sparksklearn)
-  * [4.2 Linear Regression](#42-linear-regression)
-  * [4.3 Decision Tree Regression](#43-decision-tree-regression)
-  * [4.4 Random Forest Regression](#44-random-forest-regression)
-- [5. Experimental Results](#5-experimental-results)
-- [6. Conclusions](#6-conclusions)
-
 
 ## 1.1 Introduction
 This project aims to solve the problem of predicting the price of a car, using Sklearn's supervised machine learning techniques integrated with Spark-Sklearn library. It is clearly a regression problem and predictions are carried out on dataset of car sales in the american car market. Several regression tecniques have been studied, including Linear Regression, Decision Trees and Random forests of decision trees. Their performances were compared in order to determine which one works best with out dataset.
