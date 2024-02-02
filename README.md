@@ -1,6 +1,6 @@
 # Car Price Prediction
  
-# Regression Analysis for Used Car Price Prediction
+# Regression Analysis for Car Price Prediction
 
 
 
